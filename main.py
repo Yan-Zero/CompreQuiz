@@ -42,6 +42,8 @@ def load_questions(path: str, poems: dict, weights: dict):
 
 def draw_questions(questions: list[Question], num: int) -> list[Question]:
     chosen_questions, seen_questions = [], set()
+    for question in questions:
+        question.weight = min(100, question.weight * 1.01, question.weight + 0.1)
     for _ in range(num):
         while True:
             total_weight = sum(
@@ -59,9 +61,8 @@ def draw_questions(questions: list[Question], num: int) -> list[Question]:
                 break
         chosen_questions.append(chosen_question)
         seen_questions.add(chosen_question)
-        chosen_question.weight = max(0.09, chosen_question.weight * 0.82)
-    for question in questions:
-        question.weight = min(10, question.weight * 1.1)
+        chosen_question.weight = 0
+
     return chosen_questions
 
 def load_weights(path: str):
@@ -107,9 +108,5 @@ def main():
             output_file.write(f'{idx + 1}. {"; ".join(answers_text)}\n')
     save_questions(questions, questions_path)
 
-
-def UpdateQuestions():
-    save_questions(load_questions(questions_path, load_poems('Resources/remember/chinese/poem/'), {}), questions_path)
-
 if __name__ == '__main__':
-    UpdateQuestions()
+    main()
