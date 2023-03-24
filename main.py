@@ -279,7 +279,7 @@ def main():
   num = int(input('请输入抽取题目的数量：'))
 
   if num == -1:
-    counts = {poem_title: sum(1 for question in questions if poem_title in question.poems) for poem_title in {poem.Title for poem in poems.values()}}
+    counts = {pt: sum(1 for q in questions if pt in [t.Title for t in q.poems]) for pt in [poem.Title for poem in poems.values()]}
     for poem_title, count in sorted(counts.items(), key=lambda x: x[1], reverse=True):
       print('{:\u3000<25s}\t{}'.format(poem_title, count))
     print('{:\u3000<25s}\t{}'.format("总计", len(questions)))
