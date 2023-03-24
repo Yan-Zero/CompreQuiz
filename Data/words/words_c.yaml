@@ -1,0 +1,8 @@
+- char: 兴
+  examples:
+  - 赤壁赋:
+    - (4,0)
+  meanings:
+  - 起
+  weights:
+  - 1.0

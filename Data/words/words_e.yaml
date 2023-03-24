@@ -1,0 +1,16 @@
+- char: 徐
+  examples:
+  - 赤壁赋:
+    - (3,0)
+  meanings:
+  - 缓缓地
+  weights:
+  - 0.7
+- char: 铁马
+  examples:
+  - 书愤:
+    - (3,0)
+  meanings:
+  - 配有铁甲的战马
+  weights:
+  - 0.09999999999999998
