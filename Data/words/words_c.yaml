@@ -1,8 +1,12 @@
+- char: 登仙
+  examples:
+  - 赤壁赋:
+    - (18,0)
+  meanings:
+  - 登上仙境
 - char: 兴
   examples:
   - 赤壁赋:
     - (4,0)
   meanings:
   - 起
-  weights:
-  - 1.0

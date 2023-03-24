@@ -1,1 +1,60 @@
-[]
+- char: 侣
+  examples:
+  - 赤壁赋:
+    - (57,0)
+  meanings:
+  - 以……为伴侣
+- char: 麋
+  examples:
+  - 赤壁赋:
+    - (57,0)
+  meanings:
+  - 鹿的一种
+- char: 枕藉
+  examples:
+  - 赤壁赋:
+    - (95,0)
+  meanings:
+  - 相互靠着
+- char: 卒
+  examples:
+  - 赤壁赋:
+    - (73,0)
+  meanings:
+  - 最终
+- char: 悲风
+  examples:
+  - 赤壁赋:
+    - (67,0)
+  meanings:
+  - 秋风
+- char: 逝者如斯
+  examples:
+  - 赤壁赋:
+    - (70,0)
+  meanings:
+  - 流逝的像这江水
+- char: 匏樽
+  examples:
+  - 赤壁赋:
+    - (59,0)
+  meanings:
+  - 用葫芦做成的酒器。匏，葫芦。
+- char: 幽壑
+  examples:
+  - 赤壁赋:
+    - (33,0)
+  meanings:
+  - 深谷，这里指深渊
+- char: 慕
+  examples:
+  - 赤壁赋:
+    - (29,0)
+  meanings:
+  - 眷恋
+- char: 冯
+  examples:
+  - 赤壁赋:
+    - (15,0)
+  meanings:
+  - 通“凭”，乘

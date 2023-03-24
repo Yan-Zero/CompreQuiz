@@ -1,1 +1,12 @@
-[]
+- char: 一苇
+  examples:
+  - 赤壁赋:
+    - (13,0)
+  meanings:
+  - 比喻极小的船
+- char: 缕
+  examples:
+  - 赤壁赋:
+    - (32,0)
+  meanings:
+  - 细丝

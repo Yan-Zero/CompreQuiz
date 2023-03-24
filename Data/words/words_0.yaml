@@ -1,1 +1,24 @@
-[]
+- char: 扣舷
+  examples:
+  - 赤壁赋:
+    - (20,0)
+  meanings:
+  - 敲打着船边，指打节拍
+- char: 余音
+  examples:
+  - 赤壁赋:
+    - (31,0)
+  meanings:
+  - 尾声
+- char: 嫠妇
+  examples:
+  - 赤壁赋:
+    - (34,0)
+  meanings:
+  - 寡妇
+- char: 消长
+  examples:
+  - 赤壁赋:
+    - (73,0)
+  meanings:
+  - 增减

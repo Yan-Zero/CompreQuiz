@@ -1,1 +1,24 @@
-[]
+- char: 郁
+  examples:
+  - 赤壁赋:
+    - (45,0)
+  meanings:
+  - 茂盛的样子
+- char: 蜉蝣
+  examples:
+  - 赤壁赋:
+    - (60,0)
+  meanings:
+  - 一种朝生暮死的昆虫
+- char: 是
+  examples:
+  - 赤壁赋:
+    - (89,0)
+  meanings:
+  - 这
+- char: 酾酒
+  examples:
+  - 赤壁赋:
+    - (52,0)
+  meanings:
+  - 滤酒，这里指斟酒。

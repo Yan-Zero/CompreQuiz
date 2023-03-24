@@ -1,1 +1,24 @@
-[]
+- char: 扁舟
+  examples:
+  - 赤壁赋:
+    - (58,0)
+  meanings:
+  - 小舟
+- char: 寄
+  examples:
+  - 赤壁赋:
+    - (60,0)
+  meanings:
+  - 寓托
+- char: 御
+  examples:
+  - 赤壁赋:
+    - (15,0)
+  meanings:
+  - 驾御
+- char: 遗响
+  examples:
+  - 赤壁赋:
+    - (67,0)
+  meanings:
+  - 余音，指箫声

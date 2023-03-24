@@ -3,6 +3,34 @@
   - 赤壁赋:
     - (5,0)
   meanings:
-  - 倾注，引申为劝酒。（zhǔ）
-  weights:
-  - 1.0
+  - 倾注，引申为劝酒
+- char: 少焉
+  examples:
+  - 赤壁赋:
+    - (8,0)
+  meanings:
+  - 一会儿
+- char: 遗世
+  examples:
+  - 赤壁赋:
+    - (17,0)
+  meanings:
+  - 离开尘世
+- char: 愀然
+  examples:
+  - 赤壁赋:
+    - (35,0)
+  meanings:
+  - 容色改变的样子
+- char: 适
+  examples:
+  - 赤壁赋:
+    - (90,0)
+  meanings:
+  - 享用
+- char: 横槊
+  examples:
+  - 赤壁赋:
+    - (53,0)
+  meanings:
+  - 横执长矛

@@ -1,1 +1,30 @@
-[]
+- char: 溯
+  examples:
+  - 赤壁赋:
+    - (23,0)
+  meanings:
+  - 逆流而上
+- char: 渺渺
+  examples:
+  - 赤壁赋:
+    - (24,0)
+  meanings:
+  - 悠远的样子
+- char: 缪
+  examples:
+  - 赤壁赋:
+    - (44,0)
+  meanings:
+  - 通“缭”，盘绕
+- char: 肴核
+  examples:
+  - 赤壁赋:
+    - (93,0)
+  meanings:
+  - 菜肴、果品
+- char: 周郎
+  examples:
+  - 赤壁赋:
+    - (46,0)
+  meanings:
+  - 周瑜。二十四岁为中郎将，吴中皆呼为周郎

@@ -1,1 +1,42 @@
-[]
+- char: 沧海
+  examples:
+  - 赤壁赋:
+    - (61,0)
+  meanings:
+  - 大海
+- char: 桂棹
+  examples:
+  - 赤壁赋:
+    - (22,0)
+  meanings:
+  - 桂树做的棹
+- char: 流光
+  examples:
+  - 赤壁赋:
+    - (23,0)
+  meanings:
+  - 在水波上闪动的月光
+- char: 窈窕
+  examples:
+  - 赤壁赋:
+    - (7,0)
+  meanings:
+  - 优美的样子，这里指《陈风·月出》中的优美诗句
+- char: 横江
+  examples:
+  - 赤壁赋:
+    - (11,0)
+  meanings:
+  - 横贯江面
+- char: 美人
+  examples:
+  - 赤壁赋:
+    - (25,0)
+  meanings:
+  - 比喻心中美好的理想或好的君王
+- char: 长终
+  examples:
+  - 赤壁赋:
+    - (65,0)
+  meanings:
+  - 至于永远

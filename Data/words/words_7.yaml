@@ -1,1 +1,30 @@
-[]
+- char: 兰桨
+  examples:
+  - 赤壁赋:
+    - (22,0)
+  meanings:
+  - 兰木做的桨
+- char: 凌
+  examples:
+  - 赤壁赋:
+    - (14,0)
+  meanings:
+  - 越过
+- char: 倚歌
+  examples:
+  - 赤壁赋:
+    - (27,0)
+  meanings:
+  - 按照歌曲的声调节拍
+- char: 须臾
+  examples:
+  - 赤壁赋:
+    - (62,0)
+  meanings:
+  - 片刻，形容生命之短
+- char: 盈虚者如彼
+  examples:
+  - 赤壁赋:
+    - (72,0)
+  meanings:
+  - 指月亮的圆缺

@@ -134,7 +134,11 @@ class WordDict:
     def save_words(list_w: dict[str, CcWord], path: str):
       dicts = []
       for _word in list_w.values():
-        word = _word.__dict__
+        word = {
+          'char': _word.char,
+          'meanings': _word.meanings,
+          'examples': _word.examples,
+        }
         for i, ins in enumerate(word['examples']):
           word['examples'][i] = {k: [f'({x[0]},{x[1]})' for x in v] for k, v in ins.items()}
         dicts.append(word)
@@ -144,7 +148,10 @@ class WordDict:
     save_weights(list(self.values()), path)
 
   def append(self, word: CcWord):
+    if word.char in self:
+      raise ValueError(f'Word "{word.char}" already exists')
     self.__dict[hashlib.sha1(word.char.encode()).hexdigest()[0]][word.char] = word
+
   def __getitem__(self, char: str):
     return self.__dict[hashlib.sha1(char.encode()).hexdigest()[0]][char]
   def __iter__(self):

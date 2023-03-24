@@ -1,1 +1,18 @@
-[]
+- char: 空明
+  examples:
+  - 赤壁赋:
+    - (23,0)
+  meanings:
+  - 月亮倒映水中的澄明之色
+- char: 羽化
+  examples:
+  - 赤壁赋:
+    - (18,0)
+  meanings:
+  - 传说成仙的人能像长了翅膀一样飞升
+- char: 骤
+  examples:
+  - 赤壁赋:
+    - (66,0)
+  meanings:
+  - 一下子，很轻易地

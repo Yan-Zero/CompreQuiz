@@ -4,5 +4,27 @@
     - (0,0)
   meanings:
   - 早年
-  weights:
-  - 1.0
+- char: 正襟危坐
+  examples:
+  - 赤壁赋:
+    - (36,0)
+  meanings:
+  - 整理衣襟，（严肃地）端坐着
+- char: 渺
+  examples:
+  - 赤壁赋:
+    - (61,0)
+  meanings:
+  - 小
+- char: 舳舻
+  examples:
+  - 赤壁赋:
+    - (50,0)
+  meanings:
+  - 战船前后相接，这里指战船。
+- char: 槊
+  examples:
+  - 赤壁赋:
+    - (53,0)
+  meanings:
+  - 长矛
