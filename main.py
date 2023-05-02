@@ -1,10 +1,8 @@
-# 两个空格是为了缩减 Token，不然太多了。
-
 import os
 import hashlib
 import random
 import yaml
-from typing import Union
+from typing import Union, Optional
 from abc import ABC, abstractmethod
 
 root_path = 'Resources/remember/chinese/'
@@ -118,7 +116,7 @@ def load_data(path: str, loader_func, is_dict, *args):
 class WordDict:
     __dict: dict[str, dict[str, CcWord]]
 
-    def __init__(self, poems: dict, weights: dict[str, list[float]], word_dict: dict = None, path: str = words_path):
+    def __init__(self, poems: dict, weights: dict[str, list[float]], word_dict: Optional[dict] = None, path: str = words_path):
         def find_sentence_in_poems(sentence: str, poem: Poem) -> tuple[int, int]:
             for idx, line in enumerate(poem.Content):
                 if sentence == line:
@@ -207,6 +205,7 @@ def load_poems(path: str, weights: dict) -> dict:
 
 
 def load_questions(path: str, poems: dict, weights: dict) -> list[CompreQuestion]:
+    """ 加载题目 """
     def load_question_file(file_path: str, poems: dict, weights: dict):
         questions = []
         _question_data = load_yaml(file_path)
@@ -229,7 +228,11 @@ def load_questions(path: str, poems: dict, weights: dict) -> list[CompreQuestion
                 del qd['answers_str']
             questions.append(CompreQuestion(**qd))
         return questions
-    return load_data(path, load_question_file, False, poems, weights)
+    result = load_data(path, load_question_file, False, poems, weights)
+    if isinstance(result, list):
+        return result
+    else:
+        raise TypeError(f"Expected list, got {type(result)}")
 
 
 def draw_questions(questions: list[CompreQuestion], num: int) -> list[Question]:
